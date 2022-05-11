@@ -61,7 +61,6 @@ GameObject:
   - component: {fileID: 4374530761338154304}
   - component: {fileID: 4374530761338154315}
   - component: {fileID: 4711418495645473587}
-  - component: {fileID: 8788406599938553184}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -190,7 +189,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Actions: {fileID: -944628639613478452, guid: 2b9284b494d3bbf4ba53095dcd2cb1a4,
     type: 3}
-  m_NotificationBehavior: 2
+  m_NotificationBehavior: 3
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
     m_PersistentCalls:
@@ -204,7 +203,7 @@ MonoBehaviour:
   m_ActionEvents:
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8788406599938553184}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: InputEventBehavior, Assembly-CSharp
         m_MethodName: OnMove
         m_Mode: 0
@@ -220,7 +219,7 @@ MonoBehaviour:
     m_ActionName: Ship/Movement[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 8788406599938553184}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: InputEventBehavior, Assembly-CSharp
         m_MethodName: OnFire
         m_Mode: 0
@@ -239,16 +238,3 @@ MonoBehaviour:
   m_DefaultActionMap: Ship
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!114 &8788406599938553184
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4374530761338154305}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 346b1c872569d734fb42fd75752a974d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _gun: {fileID: 18369946}
